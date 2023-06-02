@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 370px;
+    height: 500px;
+    background-image: linear-gradient(29deg,rgb(33, 205, 248), rgb(40, 44, 46));
+    padding: 1rem;
+    border-radius: 16px;   
+}
+
+body {
+    background-color: #ece9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+button{
+    border-radius: 8px;
+}
+@media screen and (min-width: 641px) and (max-width: 1023px){
+
+    .container{
+        max-width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .conteudo{
+        display: block;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+}
